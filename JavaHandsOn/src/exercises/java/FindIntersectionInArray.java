@@ -13,7 +13,6 @@ public class FindIntersectionInArray {
 			for(int j=0;j<array2.length;j++) {
 				
 				if (array1[i]==array2[j]) {
-					
 					System.out.println(array1[i]);
 					
 				}

@@ -45,7 +45,7 @@ public class AvgOfNos {
 		int max = list.stream().max(Comparator.comparing(Integer::valueOf)).get();
 		System.out.println("Max No is:"+max);
 		
-		//Max No
+		//Min No
 		int min = list.stream().min(Comparator.comparing(Integer::valueOf)).get();
 		System.out.println("Max No is:"+min);
 		

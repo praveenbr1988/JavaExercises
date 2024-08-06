@@ -2,10 +2,10 @@ package exercises.java;
 
 import java.util.Arrays;
 import java.util.Comparator;
-
-public class VersionCompare {
+//Using Arrays.Sort
+public class VersionCompareReverse {
     public static void main(String[] args) {
-        String[] arr = {"1.2.3", "3.4.1", "5.10.1", "6.2.8", "2.8.1", "1.2.9"};
+        String[] arr = {"1.2.3", "3.4.1", "5.10.1", "6.2.8", "2.8.1", "1.2.9", "2.8"};
 
         Arrays.sort(arr, new VersionComparator().reversed());
 

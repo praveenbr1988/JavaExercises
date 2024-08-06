@@ -28,11 +28,22 @@ public class SwapTwoNos {
 		mysalary=mysalary/prabhusalary; //20-(-30)=50		
 		System.out.println(mysalary +", " +prabhusalary);
 	}
+
+	public static void usingXOR() {
+		int a = 20;
+		int b=50;
+		System.out.println(a +", " +b);
+		a= a^b;
+		b= a^b;
+		a= a^b;
+		System.out.println(a +", " +b);
+	}
 	
 	
 	public static void main(String[] args) {
 		//usingtemp();
-		withoutUsingTemp();
+		//withoutUsingTemp();
+		usingXOR();
 	}
 
 }
