@@ -1,21 +1,29 @@
 package exercises.java;
 
-import org.w3c.dom.ls.LSOutput;
-
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class interview {
+    public static void main(String[] args) {
+        List<String> wordList = new ArrayList<>();
+        wordList.add("apple");
+        wordList.add("pine");
 
-    public static void main(String[] args){
-        List<Integer> list =Arrays.asList(2,6,1,4,9);
-        List<Integer> sortedList = list.stream().sorted().collect(Collectors.toList());
-        System.out.println(sortedList);
+        String inputString = "applepineapple";
+        List<String> result = extractWords(wordList, inputString);
 
+        System.out.println(result);
     }
 
-
-
+    public static List<String> extractWords(List<String> wordList, String inputString) {
+        List<String> extractedWords = new ArrayList<>();
+        for (String word : wordList) {
+            if (inputString.contains(word)) {
+                extractedWords.add(word);
+                inputString = inputString.replaceFirst(word, "");
+            }
+        }
+        return extractedWords;
+    }
 }
+
