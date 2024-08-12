@@ -46,5 +46,8 @@ public class ReverseAString {
 
 		//usingownLogic();
 		usingCollections();
+//		String s = String.join("-","19","05","2002");
+//		System.out.println(s);
+
 	}
 }
