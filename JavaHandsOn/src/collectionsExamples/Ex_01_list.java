@@ -81,7 +81,7 @@ public class Ex_01_list {
         System.out.println("sizeOfArrayList: " + sizeOfArrayList);
         System.out.println("sizeOfLinkedList: " + sizeOfLinkedList);
 
-
+        //Using for loop
         // Using a for-each loop
         for (String element : arrayList) {
             System.out.println(element);

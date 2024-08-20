@@ -21,15 +21,29 @@ public class Ex_02_IteratorEx {
         list.add("C");
 
         Iterator<String> iterator = list.iterator();
-        while (iterator.hasNext()) {
-            String element = iterator.next();
-            System.out.println(element);
-            if ("B".equals(element)) {
-                iterator.remove(); // Removes "B" from the list
-            }
-        }
+//        while (iterator.hasNext()) {
+//            String element = iterator.next();
+//            System.out.println(element);
+//            if ("B".equals(element)) {
+//                iterator.remove(); // Removes "B" from the list
+//            }
+//        }
+
+        iterator.forEachRemaining(obj->{
+            System.out.println(obj);
+        });
 
         System.out.println(list); // Output: [A, C]
+
+        //Using Streams
+        // Iterate and print elements
+        list.forEach(obj->{
+            System.out.println(obj);
+        });
+
+
+
+
     }
 }
 
