@@ -14,6 +14,12 @@ public class SwapTwoNos {
 		
 	}	
 	public static void withoutUsingTemp() {
+
+
+//		a = a + b;  // a = 30
+//		b = a - b;  // b = 30 - 20 = 10
+//		a = a - b;  // a = 30 - 10 = 20
+
 		int mysalary = 20;
 		int prabhusalary=50;				
 		/*

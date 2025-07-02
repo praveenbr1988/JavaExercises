@@ -1,3 +1,59 @@
 https://www.youtube.com/watch?v=YniWxIN0su8&list=PLFGoYjJG_fqr84PKCp88iPkQDWJSfzaqz&index=6
 
-start from 22nd program
+start from 23rd program
+
+
+🔤 Basic String Manipulation
+Reverse a string.
+
+Check if a string is a palindrome.
+Remove duplicate characters from a string.
+Check if two strings are anagrams.
+Count the number of vowels and consonants.
+Convert uppercase to lowercase and vice versa.
+Replace all spaces with %20 (URLify string).
+Remove all white spaces from a string.
+Check if two strings are rotations of each other.
+Find the first non-repeated character in a string.
+
+🔢 Counting & Frequency Problems
+Find the most frequent character.
+Count the frequency of each character in a string.
+Count and print all duplicate characters.
+Find the maximum occurring character in a string.
+
+📐 Substrings and Patterns
+Find all substrings of a string.
+Longest substring without repeating characters.
+Longest palindromic substring.
+Check if a string contains a substring (without using built-in methods).
+Print all permutations of a string.
+Group anagrams from a list of strings.
+
+🚀 Advanced Algorithms & Challenges
+Implement strStr() (substring search).
+Check if a string is a valid shuffle of two strings.
+Implement basic string compression (e.g., "aabcccccaaa" → "a2b1c5a3").
+Word pattern matching (like regex or mapping).
+Implement wildcard pattern matching (? and *).
+Edit Distance (Levenshtein distance).
+Minimum window substring.
+String to Integer (Atoi implementation).
+Find the longest common prefix in an array of strings.
+
+🔍 Interview-Favorite Conceptual Problems
+Decode an encoded string (e.g., "3[a2[c]]" → "accaccacc").
+Implement a basic calculator to evaluate a string.
+Count the number of palindromic substrings.
+Find all palindromic partitions of a string.
+Run-length encoding implementation.
+Validate a given IP address format.
+Find if a pattern exists in a string with bijection (bijective mapping).
+
+🔄 Two-pointer/String Traversal Techniques
+Check if a string is subsequence of another.
+Reverse words in a sentence.
+Check if a string has balanced parentheses/brackets.
+
+
+
